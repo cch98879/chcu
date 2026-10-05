@@ -604,16 +604,16 @@ audio {
     <div class="github-settings">
 
         <div class="github-field">
-            <label for="githubUser">我的 GitHub 帳號</label>
-            <input type="text" id="githubUser" value="cch98879" autocomplete="off" disabled="disabled">
+            <label for="githubUser"></label>
+            <input type="hidden" id="githubUser" value="cch98879" autocomplete="off" disabled="disabled">
         </div>
 
         <div class="github-field">
-            <label for="githubRepo">我的 GitHub 儲存庫名稱</label>
-            <input type="text" id="githubRepo" value="chcu" autocomplete="off" disabled="disabled">
+            <label for="githubRepo"></label>
+            <input type="hidden" id="githubRepo" value="chcu" autocomplete="off" disabled="disabled">
         </div>
 
-        <button id="downloadHTML" class="download-html" disabled="disabled">
+        <button id="downloadHTML" class="download-html" disabled="disabled" style="display:none;">
             ⬇️ 下載 mp3.html
         </button>
 
@@ -652,11 +652,7 @@ audio {
         </button>
 
 
-        <button id="refreshButton" class="refresh-button">
 
-            🔄 更新歌曲
-
-        </button>
 
 
     </div>
